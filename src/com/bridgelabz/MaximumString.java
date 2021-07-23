@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class MaximumString {
+public class MaximumString<E extends Comparable<E>> {
 
 	// Main method
 
