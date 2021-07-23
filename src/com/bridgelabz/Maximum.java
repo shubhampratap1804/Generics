@@ -30,7 +30,7 @@ public class Maximum<E extends Comparable<E>> {
 
 	// Method to check which object variable is maximum
 
-	public static <E extends Comparable<E>> E printMax(E x, E y, E z, E a) {
+	public static <E extends Comparable<E>> E maximum(E x, E y, E z, E a) {
 		E max = x;
 		if (y.compareTo(max) > 0) {
 			max = y;
@@ -54,6 +54,6 @@ public class Maximum<E extends Comparable<E>> {
 	}
 
 	public E allMaximum() {
-		return Maximum.printMax(x, y, z, a);
+		return Maximum.maximum(x, y, z, a);
 	}
 }
