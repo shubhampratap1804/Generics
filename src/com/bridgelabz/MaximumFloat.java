@@ -1,15 +1,15 @@
 package com.bridgelabz;
 
-public class MaximumIntegers {
+public class MaximumFloat {
 
 	// Main method
 	
 	public static void main(String[] args) {
 
 		//Declaring object variables
-		Integer x = 5;
-		Integer y = 10;
-		Integer z = 15;
+		Float x = 5.5f;
+		Float y = 5.6f;
+		Float z = 5.7f;
 		printMax(x, y, z);
 	}
 
